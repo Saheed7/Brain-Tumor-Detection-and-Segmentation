@@ -168,8 +168,6 @@ This repository matches the paper's core design but keeps a few parts modular be
 - **Pipeline gating** uses the detector probability threshold before sending an image to the segmenter.
 ## Releasing trained models
 
-Place public weights here after training:
-
 ```text
 models/
 ├── detector_best.pt
@@ -177,7 +175,7 @@ models/
 ├── detector_feature_selector.joblib
 └── detector_pca.joblib
 ```
-Update the README with direct download links or GitHub Releases links once weights are uploaded.
+
 ## Citation
-If you use this code in your paper or repository, include your manuscript citation here after publication.
+
 ## License
